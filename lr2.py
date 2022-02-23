@@ -45,7 +45,7 @@ file_menu.add_separator()
 file_menu.add_command(label="Exit")
 
 file_menu2 = Menu()
-file_menu2.add_command(label=" О программе")
+file_menu2.add_command(label="О программе")
 file_menu2.add_command(label="Разработчики")
 file_menu2.add_command(label="Версия 1.0")
 
