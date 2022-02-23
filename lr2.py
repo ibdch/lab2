@@ -37,9 +37,22 @@ root = Tk()
 
 mainmenu = Menu()
 root['menu'] = mainmenu
+file_menu = Menu()
+file_menu.add_command(label="New")
+file_menu.add_command(label="Save")
+file_menu.add_command(label="Open")
+file_menu.add_separator()
+file_menu.add_command(label="Exit")
+
+file_menu2 = Menu()
+file_menu2.add_command(label=" О программе")
+file_menu2.add_command(label="Разработчики")
+file_menu2.add_command(label="Версия 1.0")
+
+mainmenu.add_cascade(label="File", menu=file_menu)
 mainmenu.add_command(label="Открыть", command=insert_text)
 mainmenu.add_command(label="Сохранить", command=extract_text)
-
+mainmenu.add_cascade(label="Справка", menu=file_menu2)
 text = Text(width=50, height=25)
 text.pack()
 
