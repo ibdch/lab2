@@ -9,7 +9,7 @@ os.chdir(path)
 
 def gonna_reg_click():
     window.destroy()
-    import wb
+    import wb2
 
 
 window = tk.Tk()
