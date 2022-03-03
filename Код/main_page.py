@@ -21,8 +21,6 @@ window.configure(menu=main_menu)
 file_menu = tk.Menu(main_menu, tearoff=0)
 main_menu.add_cascade(label='Справка', menu=file_menu)
 
-
-
 prod1_label = tk.Label(window, text='Продукт 1: Камера')
 prod1_label.place(x=100, y=100)
 
