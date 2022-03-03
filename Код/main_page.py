@@ -60,8 +60,6 @@ file_menu2.add_command(label="Разработчики")
 file_menu2.add_command(label="Версия 1.0")
 
 
-
-
 author_label = tk.Label(window, text='Авторы: Вагина О., Серикова Д., Бурханов Р., Кушманов Е.')
 author_label.place(relx=0, rely=1, anchor='sw')
 
