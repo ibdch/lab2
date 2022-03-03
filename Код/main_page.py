@@ -45,25 +45,6 @@ gonna_reg = tk.Button(window, text='Пройти регистрацию',
                       command=gonna_reg_click)
 gonna_reg.place(x=225, y=450)
 
-gonna_kat = tk.Button(window, text='Каталог товаров',
-                      command=gonna_reg_click)
-gonna_kat.place(x=0, y=0)
-
-gonna_max = tk.Button(window, text='Max спрос',
-                      command=gonna_reg_click)
-gonna_max.place(x=0, y=0)
-
-gonna_din = tk.Button(window, text='Динамика изменения цен',
-                      command=gonna_reg_click)
-gonna_din.place(x=0, y=0)
-
-gonna_kor = tk.Button(window, text='Корзина',
-                      command=gonna_reg_click)
-gonna_kor.place(x=0, y=0)
-
-gonna_spr = tk.Button(window, text='Справка',
-                      command=gonna_reg_click)
-gonna_spr.place(x=540, y=0)
 
 author_label = tk.Label(window, text='Авторы: Вагина О., Серикова Д., Бурханов Р., Кушманов Е.')
 author_label.place(relx=0, rely=1, anchor='sw')
