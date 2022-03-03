@@ -21,7 +21,7 @@ def reg():
 
 
 window = tk.Tk()
-window.title('Registration')
+window.title('Регистрация')
 window.geometry('600x600')
 window.configure(bg='#e17055')
 
