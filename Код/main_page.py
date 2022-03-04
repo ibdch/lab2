@@ -48,7 +48,7 @@ submenu = Menu(window)
 window.config(menu=menu,bg='#E0ACFF')
 submenu.add_command(label="Максимальный спрос", command=gonna_reg_click)
 submenu.add_command(label="Динамика изменения цен", command=gonna_reg_click)
-submenu.add_command(label="Список наименований улиц", command=gonna_reg_click)
+submenu.add_command(label="Список наименований улиц")
 menu.add_cascade(label="Действия", menu=submenu)
 menu.add_command(label="Каталог товаров")
 menu.add_command(label="Корзина")
@@ -60,7 +60,7 @@ file_menu2.add_command(label="Разработчики")
 file_menu2.add_command(label="Версия 1.0")
 
 
-author_label = tk.Label(window, text='Авторы: Вагина О., Серикова Д., Бурханов Р., Кушманов Е.')
+author_label = tk.Label(window, text='Авторы: Вагина О., Серикова Д., Бурханов Р., Кушманов Е.', bg='#E0ACFF')
 author_label.place(relx=0, rely=1, anchor='sw')
 
 
