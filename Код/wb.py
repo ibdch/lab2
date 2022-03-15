@@ -1,5 +1,6 @@
 import tkinter as tk
 import tkinter.messagebox as tkm
+import csv
 
 
 
@@ -12,12 +13,32 @@ def reg():
     udo_number = udo_number_entry.get()
     giving_date = giving_date_entry.get()
     gived_by = gived_by_entry.get()
-    reg_info = {'ФИО': fio, 'Адрес': adress, 'Мобильный телефон': tel, 'ИИН': iin, 'Номер удостоверения': udo_number, 'Дата выдачи': giving_date, 'Кем выдано': gived_by}
-    with open('users.txt', 'a') as file:
-        file.write(str(reg_info) + '\n')
+    with open('names.csv', 'r+', newline='') as csvfile:
+        fieldnames = ['ФИО', 'Адрес', 'Мобильный телефон', 'ИИН', 'Номер удостоверения', 'Дата выдачи','Кем выдано']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+        writer.writeheader()
+
+        fio = fio_entry.get()
+        adress = adress_entry.get()
+        tel = tel_entry.get()
+        iin = iin_entry.get()
+        udo_number = udo_number_entry.get()
+        giving_date = giving_date_entry.get()
+        gived_by = gived_by_entry.get()
+       #writer = csv.writer(f)
+        fio = fio_entry.get()
+        adress = adress_entry.get()
+        tel = tel_entry.get()
+        iin = iin_entry.get()
+        udo_number = udo_number_entry.get()
+        giving_date = giving_date_entry.get()
+        gived_by = gived_by_entry.get()
+        writer.writerow({'ФИО': fio, 'Адрес': adress, 'Мобильный телефон': tel, 'ИИН': iin, 'Номер удостоверения': udo_number,'Дата выдачи': giving_date, 'Кем выдано': gived_by})
     if tkm.askokcancel('Регистрация прошла успешно', 'Сейчас вы перейдете на новую страницу'):
         print('ВСЕ РАБОТАЕТ, ОКНО ЗАКРОЕТСЯ')
         window.destroy()
+
 
 
 window = tk.Tk()
