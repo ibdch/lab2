@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ffbc3ca-4f9f-4c99-ad80-85e464ccfeef" name="Changes" comment="" />
+    <list default="true" id="9ffbc3ca-4f9f-4c99-ad80-85e464ccfeef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26NKCko6Jw86LHHQa7Sa2NYQ2mT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -82,7 +87,11 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../REG" />
+<<<<<<< HEAD
+      <option name="IS_MODULE_SDK" value="true" />
+=======
       <option name="IS_MODULE_SDK" value="false" />
+>>>>>>> d51312a9d4668192cfeb55bac2759696b87c7b32
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../REG/REG.py" />
