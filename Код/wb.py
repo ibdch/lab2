@@ -3,7 +3,6 @@ import tkinter.messagebox as tkm
 import csv
 
 
-
 def reg():
     # global fio, adress, tel, iin, udo_number, giving_date, gived_by
     fio = fio_entry.get()
