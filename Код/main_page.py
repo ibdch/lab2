@@ -26,7 +26,7 @@ prod1_label.place(x=100, y=100)
 
 canvas1 = tk.Canvas(window, width=250, height=250, relief='solid', borderwidth=2)
 canvas1.pack()
-prod1_icon_file = PhotoImage(file='img/prod1.png')
+prod1_icon_file = PhotoImage(file='img/1.png')
 canvas1.create_image(132, 125, image=prod1_icon_file)
 canvas1.place(x=30, y=125)
 

@@ -70,7 +70,7 @@ giving_date_entry.place(x=250, y=400)
 gived_by_label = tk.Label(window, text='Введите кем выдано:', bg='#E0ACFF')
 gived_by_entry = tk.Entry(window)
 gived_by_label.place(x=98, y=450)
-gived_by_entry.place(x=250, y=450)
+gived_by_entry.place(x=270, y=450)
 
 reg_button = tk.Button(window, text='Зарегистрироваться', command=reg)
 reg_button.place(x=225, y=525)
