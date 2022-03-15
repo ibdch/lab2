@@ -1,10 +1,5 @@
 import tkinter as tk
 from tkinter import *
-import os
-
-
-path = os.path.abspath(os.path.dirname(__file__))
-os.chdir(path)
 
 
 def gonna_reg_click():
@@ -12,12 +7,8 @@ def gonna_reg_click():
     import wb
 
 
-def gonna_click():
-    window.destroy()
-
-
 window = tk.Tk()
-window.title('Каталог товаров')
+window.title('WILDBERRIES')
 window.geometry('600x600')
 
 main_menu = tk.Menu(window)
@@ -47,38 +38,12 @@ menu.add_cascade(label="Тема", menu=file_menu3)
 file_menu3.add_command(label="Светлая")
 file_menu3.add_command(label="Темная")
 
-main_menu.add_cascade(label='Справка', menu=file_menu)
 
-prod1_label = tk.Label(window, text='Продукт 1: Кроссовки PUMA')
-prod1_label.place(x=90, y=100)
-
-canvas1 = tk.Canvas(window, width=250, height=250, relief='solid', borderwidth=2)
-canvas1.pack()
-prod1_icon_file = PhotoImage(file='img/2.png')
-canvas1.create_image(132, 125, image=prod1_icon_file)
-canvas1.place(x=30, y=125)
-gonna = tk.Button(window, text='Добавить в корзину', command=gonna_click)
-gonna.place(x=90, y=400)
-
-
-prod2_label = tk.Label(window, text='Продукт 2: Кроссовки NIKE AIR FORCE')
-prod2_label.place(x=350, y=100)
-
-canvas2 = tk.Canvas(window, width=251, height=251, relief='solid', borderwidth=2)
-canvas2.pack()
-gonna = tk.Button(window, text='Добавить в корзину', command=gonna_click)
-gonna.place(x=410, y=400)
-
-prod2_icon_file = PhotoImage(file='img/1.png')
-canvas2.create_image(132, 125, image=prod2_icon_file)
-canvas2.place(x=330, y=125)
-
-gonna_reg = tk.Button(window, text='Перейти к корзине',
-                      command=gonna_reg_click)
-gonna_reg.place(x=240, y=450)
+poetry = "ДОБРО ПОЖАЛОВАТЬ \n НА WILDBERRIES"
+label2 = Label(text=poetry, justify=CENTER, bg="#333", fg="#eee", font='Arial 24')
+label2.place(relx=.2, rely=.3)
 
 author_label = tk.Label(window, text='Авторы: Вагина О., Серикова Д., Бурханов Р., Кушманов Е.', bg='#7B68EE')
 author_label.place(relx=0, rely=1, anchor='sw')
-
 
 window.mainloop()
