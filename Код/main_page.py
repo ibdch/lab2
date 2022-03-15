@@ -75,7 +75,7 @@ canvas2.place(x=330, y=125)
 
 gonna_reg = tk.Button(window, text='Перейти к корзине',
                       command=gonna_reg_click)
-gonna_reg.place(x=225, y=450)
+gonna_reg.place(x=240, y=450)
 
 author_label = tk.Label(window, text='Авторы: Вагина О., Серикова Д., Бурханов Р., Кушманов Е.', bg='#7B68EE')
 author_label.place(relx=0, rely=1, anchor='sw')
