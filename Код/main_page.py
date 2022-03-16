@@ -50,28 +50,37 @@ file_menu3.add_command(label="Темная")
 main_menu.add_cascade(label='Справка', menu=file_menu)
 
 prod1_label = tk.Label(window, text='Продукт 1: Кроссовки PUMA')
-prod1_label.place(x=90, y=100)
+prod1_label.place(x=30, y=90)
 
-canvas1 = tk.Canvas(window, width=250, height=250, relief='solid', borderwidth=2)
+canvas1 = tk.Canvas(window, width=150, height=150, relief='solid', borderwidth=2)
 canvas1.pack()
 prod1_icon_file = PhotoImage(file='img/2.png')
 canvas1.create_image(132, 125, image=prod1_icon_file)
 canvas1.place(x=30, y=125)
 gonna = tk.Button(window, text='Добавить в корзину', command=gonna_click)
-gonna.place(x=90, y=400)
+gonna.place(x=50, y=300)
 
+prod1_label = tk.Label(window, text='Продукт 1: Кроссовки PUMA')
+prod1_label.place(x=220, y=90)
 
-prod2_label = tk.Label(window, text='Продукт 2: Кроссовки NIKE AIR FORCE')
-prod2_label.place(x=350, y=100)
-
-canvas2 = tk.Canvas(window, width=251, height=251, relief='solid', borderwidth=2)
+canvas2 = tk.Canvas(window, width=150, height=150, relief='solid', borderwidth=2)
 canvas2.pack()
-gonna = tk.Button(window, text='Добавить в корзину', command=gonna_click)
-gonna.place(x=410, y=400)
-
-prod2_icon_file = PhotoImage(file='img/1.png')
+prod2_icon_file = PhotoImage(file='img/2.png')
 canvas2.create_image(132, 125, image=prod2_icon_file)
-canvas2.place(x=330, y=125)
+canvas2.place(x=220, y=125)
+gonna = tk.Button(window, text='Добавить в корзину', command=gonna_click)
+gonna.place(x=240, y=300)
+
+prod3_label = tk.Label(window, text='Продукт 1: Кроссовки PUMA')
+prod3_label.place(x=410, y=90)
+
+canvas3 = tk.Canvas(window, width=150, height=150, relief='solid', borderwidth=2)
+canvas3.pack()
+prod3_icon_file = PhotoImage(file='img/2.png')
+canvas3.create_image(132, 125, image=prod3_icon_file)
+canvas3.place(x=410, y=125)
+gonna = tk.Button(window, text='Добавить в корзину', command=gonna_click)
+gonna.place(x=435, y=300)
 
 gonna_reg = tk.Button(window, text='Перейти к корзине',
                       command=gonna_reg_click)
@@ -80,5 +89,6 @@ gonna_reg.place(x=240, y=450)
 author_label = tk.Label(window, text='Авторы: Вагина О., Серикова Д., Бурханов Р., Кушманов Е.', bg='#7B68EE')
 author_label.place(relx=0, rely=1, anchor='sw')
 
-
+scrollbar = tk.Scrollbar(window)
+scrollbar.pack(side="right", fill="y")
 window.mainloop()
