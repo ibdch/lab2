@@ -20,7 +20,9 @@ def main(*args):
 
 def coming():
     root.destroy()
+    import mainadmin
     import mainmy
+
 
 
 def outcoming():
@@ -3162,7 +3164,7 @@ def outcoming():
             self.Label2.configure(cursor="fleur")
             self.Label2.configure(disabledforeground="#a3a3a3")
             self.Label2.configure(foreground="#000000")
-            photo_location = "C:\\Users\\User\\Desktop\\pizfec\\Код\\imgonline-com-ua-Resize-QzO7HQKLLg8UE4.png"
+            photo_location = "imgonline-com-ua-Resize-QzO7HQKLLg8UE4.png"
             global _img0
             _img0 = tk.PhotoImage(file=photo_location)
             self.Label2.configure(image=_img0)
