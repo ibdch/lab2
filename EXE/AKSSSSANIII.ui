@@ -1,0 +1,681 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.2">
+  <object class="tk.Toplevel" id="toplevel2">
+    <property name="background">#d7d7d7</property>
+    <property name="container">false</property>
+    <property name="cursor">arrow</property>
+    <property name="geometry">800x641</property>
+    <property name="height">200</property>
+    <property name="relief">flat</property>
+    <property name="resizable">both</property>
+    <property name="width">200</property>
+    <child>
+      <object class="pygubu.builder.widgets.scrolledframe" id="scrolledframe17">
+        <property name="scrolltype">both</property>
+        <property name="usemousewheel">false</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="height">461</property>
+          <property name="relheight">0.0</property>
+          <property name="relwidth">0.0</property>
+          <property name="relx">0.0</property>
+          <property name="rely">0.28</property>
+          <property name="width">800</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+        <child>
+          <object class="ttk.Label" id="label23">
+            <property name="image">7.png</property>
+            <property name="text" translatable="yes">label23</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.04</property>
+              <property name="rely">0.05</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label24">
+            <property name="image">1.png</property>
+            <property name="text" translatable="yes">label24</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.39</property>
+              <property name="rely">0.05</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label25">
+            <property name="image">5.png</property>
+            <property name="text" translatable="yes">label25</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.73</property>
+              <property name="rely">0.05</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label26">
+            <property name="anchor">center</property>
+            <property name="font">{Segoe UI} 13 {}</property>
+            <property name="justify">center</property>
+            <property name="relief">flat</property>
+            <property name="takefocus">false</property>
+            <property name="text" translatable="yes">Кепка PUMA
+</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="bordermode">inside</property>
+              <property name="height">20</property>
+              <property name="relx">0.09</property>
+              <property name="rely">0.02</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label27">
+            <property name="font">{Segoe UI} 13 {}</property>
+            <property name="text" translatable="yes">Кепка NIKE</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">20</property>
+              <property name="relx">0.445</property>
+              <property name="rely">0.02</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label28">
+            <property name="font">{Segoe UI} 13 {}</property>
+            <property name="text" translatable="yes">Кепка NORTH FACE</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="height">20</property>
+              <property name="relx">0.75</property>
+              <property name="rely">0.02</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="button1">
+            <property name="text" translatable="yes">Добавить в корзину</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.075</property>
+              <property name="rely">0.27</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label1">
+            <property name="takefocus">false</property>
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label2">
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="row">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label3">
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="row">2</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label4">
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="row">3</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label5">
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="row">4</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label6">
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="row">5</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label7">
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="row">6</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label8">
+            <property name="text" translatable="yes">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</property>
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="row">7</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label9">
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="row">8</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label10">
+            <property name="image">6.png</property>
+            <property name="text" translatable="yes">label10</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.04</property>
+              <property name="rely">0.35</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label11">
+            <property name="image">4 (1).png</property>
+            <property name="text" translatable="yes">label11</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.39</property>
+              <property name="rely">0.35</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label12">
+            <property name="image">2.png</property>
+            <property name="text" translatable="yes">label12</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.73</property>
+              <property name="rely">0.35</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label13">
+            <property name="image">8.png</property>
+            <property name="text" translatable="yes">label13</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.04</property>
+              <property name="rely">0.65</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label14">
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="row">13</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label15">
+            <property name="font">{Segoe UI} 13 {}</property>
+            <property name="text" translatable="yes">Кепка RAVENA</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.084</property>
+              <property name="rely">0.32</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label16">
+            <property name="font">{Segoe UI} 13 {}</property>
+            <property name="text" translatable="yes">Кепка AKSSSANI</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.42</property>
+              <property name="rely">0.32</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label17">
+            <property name="font">{Segoe UI} 13 {}</property>
+            <property name="text" translatable="yes">Кепка LAOCHRA</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.76</property>
+              <property name="rely">0.32</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label21">
+            <property name="text" translatable="yes">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</property>
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="row">20</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="button2">
+            <property name="text" translatable="yes">Добавить в корзину</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.43</property>
+              <property name="rely">0.27</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="button3">
+            <property name="text" translatable="yes">Добавить в корзину</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.77</property>
+              <property name="rely">0.27</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="button4">
+            <property name="text" translatable="yes">Добавить в корзину</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.43</property>
+              <property name="rely">0.57</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="button5">
+            <property name="text" translatable="yes">Добавить в корзину</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.075</property>
+              <property name="rely">0.57</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="button6">
+            <property name="text" translatable="yes">Добавить в корзину</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.77</property>
+              <property name="rely">0.57</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label51">
+            <property name="font">{Segoe UI} 13 {}</property>
+            <property name="text" translatable="yes">Кепка BlackHawk</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.07</property>
+              <property name="rely">0.62</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="button7">
+            <property name="text" translatable="yes">Добавить в корзину</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.075</property>
+              <property name="rely">0.87</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label52">
+            <property name="font">{Segoe UI} 13 {}</property>
+            <property name="text" translatable="yes">Кепка KINZA</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.45</property>
+              <property name="rely">0.62</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label53">
+            <property name="image">9.png</property>
+            <property name="justify">right</property>
+            <property name="text" translatable="yes">label53</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.39</property>
+              <property name="rely">0.65</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label54">
+            <property name="image">3.png</property>
+            <property name="text" translatable="yes">label54</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.73</property>
+              <property name="rely">0.65</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label55">
+            <property name="font">{Segoe UI} 13 {}</property>
+            <property name="text" translatable="yes">Кепка KAMARR</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.76</property>
+              <property name="rely">0.62</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="button8">
+            <property name="text" translatable="yes">Добавить в корзину</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.43</property>
+              <property name="rely">0.87</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="button9">
+            <property name="text" translatable="yes">Добавить в корзину</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.77</property>
+              <property name="rely">0.87</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label57">
+            <property name="font">{Segoe UI} 12 {}</property>
+            <property name="text" translatable="yes">4999 тг.</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.12</property>
+              <property name="rely">0.24</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label58">
+            <property name="font">{Segoe UI} 12 {}</property>
+            <property name="text" translatable="yes">4499 тг.</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.47</property>
+              <property name="rely">0.24</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label59">
+            <property name="font">{Segoe UI} 12 {}</property>
+            <property name="text" translatable="yes">5499 тг.</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.81</property>
+              <property name="rely">0.24</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label62">
+            <property name="font">{Segoe UI} 12 {}</property>
+            <property name="text" translatable="yes">3499 тг.</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.12</property>
+              <property name="rely">0.54</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label63">
+            <property name="font">{Segoe UI} 12 {}</property>
+            <property name="text" translatable="yes">4999 тг.</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.12</property>
+              <property name="rely">0.84</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label64">
+            <property name="font">{Segoe UI} 12 {}</property>
+            <property name="text" translatable="yes">4499 тг.</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.47</property>
+              <property name="rely">0.54</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label65">
+            <property name="font">{Segoe UI} 12 {}</property>
+            <property name="text" translatable="yes">4999 тг.</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.81</property>
+              <property name="rely">0.54</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label66">
+            <property name="font">{Segoe UI} 12 {}</property>
+            <property name="text" translatable="yes">5999 тг.</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.47</property>
+              <property name="rely">0.84</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="label67">
+            <property name="font">{Segoe UI} 12 {}</property>
+            <property name="text" translatable="yes">3999 тг.</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.81</property>
+              <property name="rely">0.84</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="button10">
+            <property name="text" translatable="yes">ПЕРЕЙТИ К КОРЗИНЕ</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relx">0.42</property>
+              <property name="rely">0.93</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Label" id="label60">
+        <property name="background">#d7d7d7</property>
+        <property name="font">{Segoe UI Emoji} 18 {}</property>
+        <property name="text" translatable="yes">КАТАЛОГ ТОВАРОВ</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.38</property>
+          <property name="rely">0.19</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Label" id="label61">
+        <property name="image">imgonline-com-ua-Resize-QzO7HQKLLg8UE4.png</property>
+        <property name="text" translatable="yes">label61</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relx">0.24</property>
+          <property name="rely">0.06</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>
