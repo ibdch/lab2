@@ -20,8 +20,8 @@ def main(*args):
 
 def coming():
     root.destroy()
-    import mainadmin
     import mainmy
+    import mainadmin
 
 
 
